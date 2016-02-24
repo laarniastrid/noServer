@@ -1,0 +1,33 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cursive;
+}
+
+/* ----- top css ----- */
+.top {
+  width: 100%;
+  height: 220px;
+  /*background: #6F97C9;*/
+  /*color: white;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top h1 {
+  /*color: white;*/
+  font-size: 75px;
+  letter-spacing: 15px;
+  margin: 0;
+}
+
+.top h4 {
+  border-bottom: solid black 4px;
+  margin: 0;
+}
