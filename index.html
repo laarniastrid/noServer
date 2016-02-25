@@ -5,24 +5,12 @@
     <link rel="stylesheet" type="text/css" href="./styles/main.css" />
     <link rel="stylesheet" type="text/css" href="./styles/nav.css" />
     <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/home.css" />
+
   </head>
   <body ng-controller="mainCtrl">
 
-    <!-- <div ng-controller="mainCtrl">
-      {{test}}
-    </div> -->
-
-      <!-- <div class="top">
-        <div class="nav">
-          <div class="nav-logo"></div>
-          <span><a ui-sref="home">Home</a></span>
-          <span><a ui-sref="whales">Whales</a></span>
-          <span><a ui-sref="dolphins">Dolphins</a></span>
-        </div>
-
-        <h1>WIN:WYN</h1>
-        <h4>Whales in Need : Whales You Need</h4>
-      </div> -->
+    <div class="main-wrapper">
 
       <nav-d></nav-d>
 
@@ -30,7 +18,7 @@
 
       <footer-d></footer-d>
 
-
+    </div>
 
 
     <!-- scripts below -->
@@ -45,12 +33,14 @@
     <!-- controllers -->
     <script src="./js/mainCtrl.js"></script>
     <script src="./js/whalesCtrl.js"></script>
+    <script src="./js/whaleCtrl.js"></script>
     <script src="./js/dolphinsCtrl.js"></script>
     <!-- services -->
     <script src="./services/whalesSvc.js"></script>
     <!-- directives -->
     <script src="./directives/navD.js"></script>
     <script src="./directives/footerD.js"></script>
+    <script src="./directives/doStuff.js"></script>
 
   </body>
 </html>

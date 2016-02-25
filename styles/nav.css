@@ -1,15 +1,38 @@
+/* ----- top css ----- */
+.top {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/pexels-photo.jpg');
+  background-repeat: no-repeat;
+
+}
+
+.top h1 {
+  color: white;
+  font-size: 75px;
+  letter-spacing: 20px;
+  margin: 0;
+}
+
+.top h4 {
+  color: white;
+  border-bottom: solid white 2px;
+  margin: 0;
+}
+
+/* ----- nav css */
 .nav {
   width: 100%;
   height: 50px;
-  /*background: #E8CDAC;*/
-  /*background: #6F97C9;*/
   background: #006699;
   position: fixed;
   top: 0;
   display: flex;
-  /*justify-content: space-between;*/
   align-items: center;
-  /*border-radius: 10px;*/
 }
 
 .nav-logo {
@@ -33,16 +56,9 @@
 }
 
 .nav a:hover {
-  /*border-bottom: solid #0B2442 3px;*/
-  /*background: #FFF0BF;*/
   background: #0B2442;
 }
 
 .nav a:link, a:visited {
-  /*color: #0B2442;*/
   color: white;
 }
-
-/*.nav a:focus {
-  border-bottom: solid #FFF0BF 3px;
-}*/
