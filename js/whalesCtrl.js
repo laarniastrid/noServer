@@ -1,6 +1,6 @@
 angular.module('myApp')
 
-.controller('whalesCtrl', function($scope) {
+.controller('whalesCtrl', function($scope, whalesSvc) {
 
 
 

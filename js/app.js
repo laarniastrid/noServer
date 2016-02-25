@@ -18,6 +18,13 @@ angular.module('myApp', ['ui.router', 'firebase'])
       templateUrl: '../views/dolphins.html',
       controller: 'dolphinsCtrl',
     }) // end whales
+    .state('about', {
+
+    }) // end about
+    .state('contact', {
+
+    }) // end contact
+    
 
     $urlRouterProvider.otherwise('/');
 }) // end of app config
