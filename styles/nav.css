@@ -6,6 +6,7 @@
   display: inline-flex;
   /*justify-content: space-between;*/
   align-items: center;
+  border-radius: 10px;
 }
 
 .nav span {
@@ -14,12 +15,18 @@
 
 .nav a {
   text-decoration: none;
+  padding: 3px;
 }
 
-.nav a:visited {
-  color: black;
+.nav a:hover {
+  /*border-bottom: solid #0B2442 3px;*/
+  background: #FFF0BF;
 }
 
-.nav a:target {
-  color: red;
+.nav a:link, a:visited {
+  color: #0B2442;
 }
+
+/*.nav a:focus {
+  border-bottom: solid #FFF0BF 3px;
+}*/

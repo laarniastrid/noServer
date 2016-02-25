@@ -7,11 +7,17 @@ angular.module('myApp', ['ui.router', 'firebase'])
       url: '/',
       templateUrl: '../views/home.html',
       controller: 'mainCtrl',
-    }) // end home state
+    }) // end home
     .state('whales', {
       url: '/whales',
       templateUrl: '../views/whales.html',
       controller: 'whalesCtrl',
-    }) // end whales state
+    }) // end whales
+    .state('dolphins', {
+      url: '/dolphins',
+      templateUrl: '../views/dolphins.html',
+      controller: 'dolphinsCtrl',
+    }) // end whales
 
+    $urlRouterProvider.otherwise('/');
 }) // end of app config
