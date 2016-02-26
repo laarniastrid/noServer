@@ -9,7 +9,8 @@
   background-image: url('../images/pexels-photo.jpg');
   background-repeat: no-repeat;
   border-bottom: 10px #0B2442 solid;
-  z-index: 10;
+  z-index: 999;
+  position: relative;
 }
 
 .top h1 {

@@ -7,6 +7,7 @@ html, body {
 body {
   width: 100%;
   height: auto;
+  /*height: 1200px;*/
   /*min-height: 700px;*/
   /*max-height: 1200px;*/
   position: relative;
@@ -19,13 +20,6 @@ body {
   font-family: cursive;
   /*color: white;*/
 }
-
-
-/*.main-wrapper {
-  width: 100%;
-  height: 1000px;
-  position: relative;
-}*/
 
 .general {
   width: 80%;
