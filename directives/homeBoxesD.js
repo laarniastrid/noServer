@@ -13,13 +13,15 @@ angular.module('myApp')
     link: function(scope, ele, attr) {
       ele.on('mouseover', function() {
         $('.content-box', this).css({
-          'border': '#2A9CE8 5px solid',
+          // 'border': '#2A9CE8 5px solid',
+          'box-shadow': '0px 0px 35px #0B2442',
         })
       })
       ele.on('mouseout', function() {
         $('.content-box', this).css({
           // 'background': '#006699',
-          'border': 'none',
+          // 'border': 'none',
+          'box-shadow': 'none',
         })
       })
     }
