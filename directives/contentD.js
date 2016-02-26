@@ -5,10 +5,10 @@ angular.module('myApp')
   return {
     retrict: 'E',
     templateUrl: '../views/content.html',
-    controller: 'whlCntCtrl',
+    // controller: 'contentCtrl',
     scope: {
       text: '=',
-    },
+    }
 
   }
 

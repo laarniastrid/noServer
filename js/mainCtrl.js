@@ -7,10 +7,11 @@ angular.module('myApp')
     // home page whales box
     $scope.routeW = 'whales';
     $scope.textW = 'whale page box link here';
-    $scope.imgW = '../images/whalesGen.jpg';
+    $scope.imgW = 'whalesGen.jpg';
 
     // home page dolphins box
     $scope.routeD = 'dolphins';
     $scope.textD = 'dolphin page box link here';
+    $scope.imgD = 'dolphinsGen.jpg';
 
 }) // end mainCtrl controller

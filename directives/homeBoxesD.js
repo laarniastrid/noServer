@@ -1,14 +1,14 @@
 angular.module('myApp')
 
-.directive('doStuff', function() {
+.directive('homeBoxesD', function() {
 
   return {
     restrict: 'E',
-    templateUrl: '../views/doStuff.html',
+    templateUrl: '../views/homeBoxes.html',
     scope: {
       route: '=',
       text: '=',
-      boxImg: '=',
+      boxImg: '='
     },
     link: function(scope, ele, attr) {
       ele.on('mouseover', function() {
@@ -22,7 +22,7 @@ angular.module('myApp')
           'border': 'none',
         })
       })
-    },
+    }
   }
 
 }) // end of footerD directive

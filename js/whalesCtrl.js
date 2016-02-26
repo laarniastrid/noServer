@@ -4,5 +4,6 @@ angular.module('myApp')
 
   $scope.whales = whalesSvc.getWhales();
 
+  $scope.whalesPageText = "this is a test";
 
 }) // end whalesCtrl controller
