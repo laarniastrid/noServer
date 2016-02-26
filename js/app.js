@@ -1,4 +1,4 @@
-angular.module('myApp', ['ui.router', 'firebase'])
+angular.module('myApp', ['ui.router'])
 
 .config(function($stateProvider, $urlRouterProvider) {
 

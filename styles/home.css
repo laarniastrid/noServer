@@ -21,6 +21,7 @@
   background: #006699;
   margin: 15px;
   float: left;
+  border-radius: 15px;
 }
 
 .content-box:hover {

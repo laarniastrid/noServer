@@ -1,5 +1,21 @@
 angular.module('myApp')
 
+.directive('contentD', function() {
+
+  return {
+    retrict: 'E',
+    templateUrl: '../views/content.html',
+    controller: '../js/content.js',
+    scope: {
+      
+    }
+  }
+
+}) // end contentD directive
+
+
+angular.module('myApp')
+
 .directive('doStuff', function() {
 
   return {
