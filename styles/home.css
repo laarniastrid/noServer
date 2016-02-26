@@ -2,6 +2,14 @@
   margin: auto;
 }
 
+.welcome h2 {
+  margin: 0;
+}
+
+.welcome h3 {
+  margin: 0;
+}
+
 .content-wrapper {
   width: 100%;
   margin: auto;
