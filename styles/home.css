@@ -10,9 +10,6 @@
   padding: 0;
 }
 
-.content {
-}
-
 .content-box {
   width: 300px;
   height: 300px;
@@ -24,6 +21,14 @@
   border-radius: 15px;
 }
 
-.content-box:hover {
+.content-box span {
+  z-index: 1;
+  position: absolute;
+}
 
+.box-img {
+  max-width: 300px;
+  max-height: 300px;
+  position: absolute;
+  border-radius: 15px;
 }

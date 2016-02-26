@@ -8,7 +8,7 @@
   align-items: center;
   background-image: url('../images/pexels-photo.jpg');
   background-repeat: no-repeat;
-
+  border-bottom: 10px #0B2442 solid;
 }
 
 .top h1 {
