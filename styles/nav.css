@@ -9,6 +9,7 @@
   background-image: url('../images/pexels-photo.jpg');
   background-repeat: no-repeat;
   border-bottom: 10px #0B2442 solid;
+  z-index: 10;
 }
 
 .top h1 {
@@ -44,6 +45,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: 20px;
+  position: relative;
+  top: 3px;
 }
 
 .nav span {

@@ -29,11 +29,13 @@ angular.module('myApp', ['ui.router'])
     .state('about', {
       url: '/about',
       templateUrl: '../views/about.html',
+      controller: 'aboutCtrl',
     }) // end about
 
     .state('contact', {
       url: '/contact',
       templateUrl: '../views/contact.html',
+      controller: 'contactCtrl',
     }) // end contact
 
 

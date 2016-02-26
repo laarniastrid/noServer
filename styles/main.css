@@ -6,7 +6,9 @@ html, body {
 
 body {
   width: 100%;
-  height: 850px;
+  height: auto;
+  /*min-height: 700px;*/
+  /*max-height: 1200px;*/
   position: relative;
   /*background-image: url('../images/pexels-photo.jpg');*/
 }
@@ -27,5 +29,9 @@ body {
 
 .general {
   width: 80%;
-  margin: 25px auto auto auto;
+  height: auto;
+  min-height: 500px;
+  margin: auto;
+  padding: 25px;
+  background: #E0DCF5;
 }
