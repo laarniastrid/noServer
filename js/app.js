@@ -26,6 +26,12 @@ angular.module('myApp', ['ui.router'])
       controller: 'dolphinsCtrl',
     }) // end dolphins
 
+    .state('saveWhales', {
+      url: '/saveWhales',
+      templateUrl: '../views//saveTheWhales.html',
+      controller: 'saveWhalesCtrl',
+    }) // end save whales
+
     .state('about', {
       url: '/about',
       templateUrl: '../views/about.html',

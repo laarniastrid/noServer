@@ -14,4 +14,9 @@ angular.module('myApp')
     $scope.textD = 'dolphin page box link here';
     $scope.imgD = 'dolphinsGen.jpg';
 
+    // home page save the whales box
+    $scope.routeSave = 'saveWhales';
+    $scope.textSave = 'save the whales!';
+    $scope. imgSave = 'orcas01.jpg';
+
 }) // end mainCtrl controller
