@@ -21,8 +21,9 @@
 }
 
 .top h4 {
+  font-family: Arial;
   color: white;
-  border-bottom: solid white 2px;
+  /*border-bottom: solid white 2px;*/
   margin: 0;
 }
 
@@ -62,7 +63,8 @@
 }
 
 .nav a:hover {
-  background: #0B2442;
+  /*background: #0B2442;*/
+  background: #006699;
 }
 
 .nav a:link, a:visited {
