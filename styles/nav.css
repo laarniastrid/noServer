@@ -15,13 +15,15 @@
 
 .top h1 {
   color: white;
-  font-size: 75px;
-  letter-spacing: 20px;
+  font-size: 85px;
+  letter-spacing: 25px;
   margin: 0;
 }
 
-.top h4 {
+.top h3 {
+  /*font-size: 20px;*/
   font-family: Arial;
+  letter-spacing: 3px;
   color: white;
   /*border-bottom: solid white 2px;*/
   margin: 0;
@@ -32,12 +34,12 @@
   width: 100%;
   height: 50px;
   background: #0B2442;
-  background: linear-gradient(#0B2442, rgba(255,0,0,0));
+  background: linear-gradient(#1D5599, rgba(255,0,0,0));
   position: fixed;
   top: 0;
   display: flex;
   align-items: center;
-  border-top: 5px black solid;
+  border-top: 5px #0B2442 solid;
 }
 
 .nav-logo {
@@ -59,7 +61,8 @@
 
 .nav a {
   text-decoration: none;
-  padding: 3px;
+  border-radius: 10px;
+  padding: 3px 6px;
 }
 
 .nav a:hover {
