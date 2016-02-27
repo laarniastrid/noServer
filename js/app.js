@@ -1,4 +1,4 @@
-angular.module('myApp', ['ui.router'])
+angular.module('myApp', ['ngAnimate', 'ui.router'])
 
 .config(function($stateProvider, $urlRouterProvider) {
 
@@ -47,3 +47,20 @@ angular.module('myApp', ['ui.router'])
 
     $urlRouterProvider.otherwise('/');
 }) // end of app config
+
+// test animation thingy
+// .animation('.slide', funciton() {
+//
+//   return {
+//     enter: function(element, doneFn) {
+//       jquery(element).fadeIn(1000, doneFn);
+//     },
+//     move: function(elemnt, doneFn) {
+//       jquery(element).fadeIn(1000, doneFn);
+//     },
+//     leave: function(element, doneFn) {
+//       jquery(element).fadeOut(1000, doneFn);
+//     }
+//   }
+//
+// }) // end of animation

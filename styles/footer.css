@@ -24,11 +24,13 @@
 
 .footer a {
   text-decoration: none;
-  padding: 3px;
+  /*padding: 3px;*/
 }
 
 .footer a:hover {
   background: #006699;
+  border-radius: 10px;
+  padding: 3px 6px;
 }
 
 .footer a:link, a:visited {
@@ -47,11 +49,12 @@
 
 .footer-icons i {
   /*margin: auto 5px auto 5px;*/
-  padding: 5px;
+  padding: 3px 6px 4px 6px;
 }
 
 .footer-icons i:hover {
   background: #006699;
+  border-radius: 10px;
 }
 
 .footer-icons a:hover {
