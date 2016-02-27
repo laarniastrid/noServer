@@ -1,9 +1,11 @@
 .bottom {
   width: 100%;
   height: 50px;
-  background: #0B2442;
-  background: linear-gradient(rgba(255,0,0,0), #0B2442);
-  border-bottom: 5px black solid;
+  /*background: #0B2442;*/
+  background: #1D5599;
+  /*background: linear-gradient(rgba(255,0,0,0), #0B2442);*/ /* darker blue */
+  background: linear-gradient(rgba(255,0,0,0), #1D5599);
+  border-bottom: 5px #0B2442 solid;
   position: fixed;
   bottom: 0;
   display: flex;
@@ -40,9 +42,18 @@
   padding: 0;*/
   position: absolute;
   right: 15px;
-  bottom: -2px;
+  bottom: 0;
 }
 
 .footer-icons i {
-  margin: auto 5px auto 5px;
+  /*margin: auto 5px auto 5px;*/
+  padding: 5px;
+}
+
+.footer-icons i:hover {
+  background: #006699;
+}
+
+.footer-icons a:hover {
+  background: none;
 }
