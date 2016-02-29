@@ -7,6 +7,10 @@
   justify-content: center;
   align-items: center;
   background-image: url('../images/pexels-photo.jpg');
+  /*background-image: url('../images/giphy-wave.gif');
+  background-size: cover;
+  background-position: center center;*/
+
   background-repeat: no-repeat;
   border-bottom: 10px #0B2442 solid;
   z-index: 999;
