@@ -2,19 +2,19 @@
   <content-d text="contactPageText"></content-d>
 
   <div class="contact">
-    <form class="contact-form" action="">
+    <form class="contact-form" ng-submit="addPost()">
       <div class="form-top">
         <div class="form-top-left">
-          <input id="contact-name" type="text" placeholder="Your name :" required />
-          <input id="contact-email" type="email" placeholder="Your email :" required />
-          <input id="contact-phone" type="phone" placeholder="Your phone :" />
+          <input id="contact-name" ng-model="contact.name" type="text" placeholder="Your name :" required />
+          <input id="contact-email" ng-model="contact.email" type="email" placeholder="Your email :" required />
+          <input id="contact-phone" ng-model="contact.phone" type="phone" placeholder="Your phone :" />
         </div>
         <div class="form-top-right">
-          <textarea></textarea>
+          <textarea id="contact-text" ng-model="contact.text"></textarea>
         </div>
       </div>
       <div class="form-bottom">
-        <button id="contact-text" class="contact-submit" type="submit">Send Away!!</div>
+        <button id="contact-submit" ng-disabled="contact.name == undefined || contact.email == undefined" class="contact-submit" type="submit">Send Away!!</div>
       </div>
     </form>
   </div>
