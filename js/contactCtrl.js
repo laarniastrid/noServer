@@ -5,4 +5,6 @@ angular.module('myApp')
   $scope.contactPageText = 'this is the contact page';
 
 
+
+
 }) // end contactCtrl controller
