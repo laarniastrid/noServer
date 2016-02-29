@@ -1,1 +1,20 @@
-<content-d text="whalesPageText"></content-d>
+<div class="general">
+
+  <content-d text="whalesPageText"></content-d>
+
+  <!-- <div class="content-wrapper" ng-model="whales"> -->
+  <div class="content-wrapper" ng-repeat="specie in yourMom">
+    <home-boxes-d route="myRoute" text="specie.value" box-img="specie.fieldname_image"></home-boxes-d>
+
+    <!-- <a ui-sref="home">
+      <div class="content-box">
+        <span>{{whale.value}}</span>
+        <img class="box-img" ng-src="{{whale.fieldname_image}}" />
+      </div>
+    </a> -->
+
+
+  </div>
+
+
+</div>

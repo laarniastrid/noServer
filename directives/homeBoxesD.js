@@ -10,6 +10,7 @@ angular.module('myApp')
       text: '=',
       boxImg: '='
     },
+    // controller: 'whalesCtrl',
     link: function(scope, ele, attr) {
       ele.on('mouseover', function() {
         $('.content-box', this).css({
