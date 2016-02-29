@@ -1,3 +1,11 @@
 <div class="general">
+
   <content-d text="dolphinsPageText"></content-d>
+
+  <div class="content-wrapper">
+    <div ng-repeat="specie in allDolphins">
+      <home-boxes-d route="myRoute" text="specie.value" box-img="specie.fieldname_image"></home-boxes-d>
+    </div>
+  </div>
+
 </div>

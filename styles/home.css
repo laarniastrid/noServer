@@ -28,25 +28,29 @@
 .content-box {
   width: 300px;
   height: 300px;
-  min-width: 250px;
-  min-height: 300px;
+  /*min-width: 300px;*/
+  /*min-height: 300px;*/
   /*background: #006699;*/
   margin: 15px;
   /*float: left;*/
   border-radius: 5px;
+
+  max-height: 300px;
+  background-size: cover;
+  background-position: center;
 }
 
 .content-box span {
   font-family: Verdana, Arial;
-  padding-left: 10px;
-  z-index: 1;
+  padding: 5px auto auto 15px;
+  /*z-index: 1;*/
   position: absolute;
 }
 
-.box-img {
+/*.box-img {
   max-width: 300px;
   max-height: 300px;
   position: absolute;
   border-radius: 5px;
   z-index: 0;
-}
+  }*/

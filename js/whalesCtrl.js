@@ -7,11 +7,20 @@ angular.module('myApp')
   // $scope.stuffImgs = '../images/orcas01.jpg';
 
   $scope.myRoute = 'home';
+  $scope.allWhales = [];
 
   $scope.stuff = function() {
     whalesSvc.getWhales().then(function(response) {
-      console.log(response.data);
-      $scope.yourMom = response.data;
+      // console.log(response.data);
+      $scope.myWhales = response.data;
+      $scope.myWhales.forEach(function(entry) {
+        var check = entry.value.toLowerCase();
+        if (check.includes('whale') && !(check.includes('killer'))) {
+          $scope.allWhales.push(entry);
+        } else if (check.includes('narwhal')) {
+          $scope.allWhales.push(entry);
+        }
+      })
     })
   }
 
