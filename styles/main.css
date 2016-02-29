@@ -22,7 +22,7 @@ body {
   /*height: 500px;*/
   font-family: 'Rock Salt', cursive, Verdana, Arial;
   /*color: white;*/
-  
+
 }
 
 .general {
@@ -33,4 +33,72 @@ body {
   padding: 25px;
   background: #E0DCF5;
   border-radius: 5px;
+}
+
+/* ---------- contact stuff below ---------- */
+
+.contact {
+  /*width: 100%;*/
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  width: auto;
+  height: auto;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-top {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.form-top-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-top-left input {
+  width: 275px;
+  margin: 15px;
+  border: none;
+  border-bottom: 5px black solid;
+  background: #E0DCF5;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.form-top-right {
+
+}
+
+.form-top-right textarea {
+  width: 275px;
+  height: 168px;
+  margin: 10px;
+  border: none;
+  border-bottom: 5px black solid;
+  border-right: 5px black solid;
+  background: #E0DCF5;
+  font-size: 16px;
+  border-radius: 5px;
+  /*rows: 10;*/
+}
+
+.form-bottom {
+
+}
+
+.form-bottom button {
+  margin: 5px;
+  font-size: 16px;
 }

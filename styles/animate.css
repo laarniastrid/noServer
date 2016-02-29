@@ -34,8 +34,8 @@
 	animation-name: slideLeft;
 	-webkit-animation-name: slideLeft;
 
-	animation-duration: 1s;
-	-webkit-animation-duration: 1s;
+	animation-duration: 1.15s;
+	-webkit-animation-duration: 1.15s;
 
 	animation-timing-function: ease-in-out;
 	-webkit-animation-timing-function: ease-in-out;
@@ -57,11 +57,11 @@
 }
 
 .slideLeft.ng-enter-active {
-  opacity: .85;
+  opacity: 1;
 }
 
 .slideLeft.ng-leave {
-  opacity: .85;
+  opacity: 1;
 }
 
 .slideLeft.ng-leave-active {
@@ -71,7 +71,7 @@
 
 @keyframes slideLeft {
 	0% {
-		transform: translateX(50%);
+		transform: translateX(-50%);
 	}
 	100% {
 		transform: translateX(0%);
