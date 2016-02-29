@@ -6,17 +6,17 @@ angular.module('myApp')
 
     // home page whales box
     $scope.routeW = 'whales';
-    $scope.textW = 'whale page box link here';
+    $scope.textW = 'Whales!!';
     $scope.imgW = '../images/whalesGen.jpg';
 
     // home page dolphins box
     $scope.routeD = 'dolphins';
-    $scope.textD = 'dolphin page box link here';
+    $scope.textD = 'Dolphins!!';
     $scope.imgD = '../images/dolphinsGen.jpg';
 
     // home page save the whales box
     $scope.routeSave = 'saveWhales';
-    $scope.textSave = 'save the whales!';
+    $scope.textSave = 'Save the Whales!!';
     $scope. imgSave = '../images/orcas01.jpg';
 
 }) // end mainCtrl controller
