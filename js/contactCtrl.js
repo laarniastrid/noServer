@@ -2,7 +2,7 @@ angular.module('myApp')
 
 .controller('contactCtrl', function($scope) {
 
-  $scope.contactPageText = 'this is the contact page';
+  $scope.contactPageText = 'Contact Me';
 
   $scope.addPost = function() {
 
@@ -19,7 +19,7 @@ angular.module('myApp')
     // send.href = window.URL.createObjectURL(stuff);
     // send.dataset.downloadurl = ['text/json', send.download, send.href].join(':');
 
-
+zz
     console.log($scope.contact);
     $scope.contact = '';
   }

@@ -2,7 +2,7 @@ angular.module('myApp')
 
 .controller('aboutCtrl', function($scope) {
 
-  $scope.aboutPageText = "this is the about page";
+  $scope.aboutPageText = "About WIN : WYN";
 
 
 }) // end aboutCtrl controller
