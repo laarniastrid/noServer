@@ -2,19 +2,19 @@
   <content-d text="contactPageText"></content-d>
 
   <div class="contact">
-    <form class="contact-form" ng-submit="addPost(contact)">
+    <form class="contact-form" action="http://formspree.io/ecriyliz.yilrjsjy@gmail.com" method="POST">
       <div class="form-top">
         <div class="form-top-left">
-          <input id="contact-name" ng-model="contact.name" type="text" placeholder="Your name :" required />
-          <input id="contact-email" ng-model="contact.email" type="email" placeholder="Your email :" required />
-          <input id="contact-phone" ng-model="contact.phone" type="phone" placeholder="Your phone :" />
+          <input name="name" id="contact-name" ng-model="contact.name" type="text" placeholder="Your name :" required />
+          <input name="email" id="contact-email" ng-model="contact.email" type="email" placeholder="Your email :" required />
+          <input name="phone" id="contact-phone" ng-model="contact.phone" type="phone" placeholder="Your phone :" required />
         </div>
         <div class="form-top-right">
-          <textarea id="contact-text" ng-model="contact.text"></textarea>
+          <textarea name="text" id="contact-text" ng-model="contact.text" required></textarea>
         </div>
       </div>
       <div class="form-bottom">
-        <button id="contact-submit" ng-disabled="contact.name == undefined || contact.email == undefined" class="contact-submit" type="submit">Send Away!!</div>
+        <button type="submit" value="send" id="contact-submit" ng-disabled="contact.name == undefined || contact.email == undefined" class="contact-submit" type="submit">Send Away!!</div>
       </div>
     </form>
   </div>

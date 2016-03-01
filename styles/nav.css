@@ -6,10 +6,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('../images/pexels-photo.jpg');
-  /*background-image: url('../images/giphy-wave.gif');
+  /*background-image: url('../images/pexels-photo.jpg');*/
+
+  /*background-image: url('http://gph.is/1KPLUYi');*/
+  /*background-size: cover;*/
+  /*background-position: center center;*/
+
+  background-image: url('../images/whales03.gif');
   background-size: cover;
-  background-position: center center;*/
+  background-position: center bottom;
 
   background-repeat: no-repeat;
   border-bottom: 10px #0B2442 solid;
