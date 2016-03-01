@@ -4,21 +4,21 @@ angular.module('myApp')
 
   $scope.contactPageText = 'this is the contact page';
 
-  $scope.addPost = function() {
+  $scope.addPost = function(data) {
 
-    // if (!data) {
-    //   console.error('fill in the form');
-    // }
-    //
-    // data = JSON.stringify(data, undefined, 2);
-    //
-    // var stuff = new Blob([data], {type: 'text/json'});
-    // var send = document.getElementById('contact-submit');
-    //
-    // send.download = new Date();
-    // send.href = window.URL.createObjectURL(stuff);
-    // send.dataset.downloadurl = ['text/json', send.download, send.href].join(':');
+    $.ajax({
+        url: "http://formspree.io/ecriyliz.yilrjsjy@gmail.com",
+        method: "POST",
+        data: {
+          name: data.name,
+          email: data.email,
+          phone: data.phone,
+          message: data.text,
+        },
+        dataType: "json"
+    });
 
+    // alert('there are bees!');
 
     console.log($scope.contact);
     $scope.contact = '';
