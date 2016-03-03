@@ -5,7 +5,6 @@ angular.module('myApp')
   $scope.contactPageText = 'Contact Me';
 
   $scope.addPost = function(data) {
-
     $.ajax({
         url: "http://formspree.io/ecriyliz.yilrjsjy@gmail.com",
         method: "POST",
