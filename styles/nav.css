@@ -56,7 +56,8 @@
   height: 50px;
   min-width: 50px;
   min-height: 50px;
-  background-image: url('../images/winwyn-logo-sm-box.jpg');
+  /*background-image: url('../images/winwyn-logo-sm-box.jpg');*/
+  background-image: url('../images/saveWhales02.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: 20px;
