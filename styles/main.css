@@ -164,3 +164,13 @@ body {
   margin: 5px;
   font-size: 16px;
 }
+
+/* ----- saveWhales background image ----- */
+
+.saveWhales {
+  height: 800px;
+  background-image: url('../images/saveWhales01.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
