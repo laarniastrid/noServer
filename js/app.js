@@ -5,42 +5,42 @@ angular.module('myApp', ['ui.router', 'ngAnimate'])
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: '../views/home.html',
+      templateUrl: 'views/home.html',
       controller: 'mainCtrl',
     }) // end home
 
     .state('whales', {
       url: '/whales',
-      templateUrl: '../views/whales.html',
+      templateUrl: 'views/whales.html',
       controller: 'whalesCtrl',
     }) // end whales
     .state('whale', {
       url: '/whales/:whaleId',
-      templateUrl: '../views/whale.html',
+      templateUrl: 'views/whale.html',
       controller: 'whaleCtrl',
     })
 
     .state('dolphins', {
       url: '/dolphins',
-      templateUrl: '../views/dolphins.html',
+      templateUrl: 'views/dolphins.html',
       controller: 'dolphinsCtrl',
     }) // end dolphins
 
     .state('saveWhales', {
       url: '/saveWhales',
-      templateUrl: '../views//saveTheWhales.html',
+      templateUrl: 'views/saveTheWhales.html',
       controller: 'saveWhalesCtrl',
     }) // end save whales
 
     .state('about', {
       url: '/about',
-      templateUrl: '../views/about.html',
+      templateUrl: 'views/about.html',
       controller: 'aboutCtrl',
     }) // end about
 
     .state('contact', {
       url: '/contact',
-      templateUrl: '../views/contact.html',
+      templateUrl: 'views/contact.html',
       controller: 'contactCtrl',
     }) // end contact
 
