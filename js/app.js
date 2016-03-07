@@ -45,5 +45,5 @@ angular.module('myApp', ['ui.router', 'ngAnimate'])
     }) // end contact
 
 
-    // $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/');
 }) // end of app config
