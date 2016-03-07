@@ -5,7 +5,7 @@ angular.module('myApp')
   this.getWhales = function() {
     return $http({
       method: 'GET',
-      url: '../js/usWhalesOrgApi.json',
+      url: 'js/usWhalesOrgApi.json',
     })
   }
 
