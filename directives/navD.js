@@ -4,7 +4,7 @@ angular.module('myApp')
 
   return {
     retrict: 'E',
-    templateUrl: '../views/nav.html',
+    templateUrl: 'views/nav.html',
   } // end return
 
 }) // end navD directive

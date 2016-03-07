@@ -4,7 +4,7 @@ angular.module('myApp')
 
   return {
     restrict: 'E',
-    templateUrl: '../views/footer.html',
+    templateUrl: 'views/footer.html',
   }
 
 }) // end of footerD directive

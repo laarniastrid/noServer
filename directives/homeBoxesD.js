@@ -4,7 +4,7 @@ angular.module('myApp')
 
   return {
     restrict: 'E',
-    templateUrl: '../views/homeBoxes.html',
+    templateUrl: 'views/homeBoxes.html',
     scope: {
       route: '=',
       text: '=',

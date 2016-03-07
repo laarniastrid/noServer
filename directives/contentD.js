@@ -4,7 +4,7 @@ angular.module('myApp')
 
   return {
     retrict: 'E',
-    templateUrl: '../views/content.html',
+    templateUrl: 'views/content.html',
     // controller: 'contentCtrl',
     scope: {
       text: '=',
