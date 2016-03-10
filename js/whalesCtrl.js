@@ -10,7 +10,7 @@ angular.module('myApp')
   $scope.allWhales = [];
 
   $scope.stuff = function() {
-    whalesSvc.getWhales().then(function(response) {
+    whalesSvc.getWhales().then(function(relsponse) {
       // console.log(response.data);
       $scope.myWhales = response.data;
       $scope.myWhales.forEach(function(entry) {
