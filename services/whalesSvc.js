@@ -6,7 +6,7 @@ angular.module('myApp')
     return $http({
       method: 'GET',
       url: 'js/usWhalesOrgApi.json',
-    })
-  }
+    });
+  };
 
-}) // end whalesSvc service
+}); // end whalesSvc service
